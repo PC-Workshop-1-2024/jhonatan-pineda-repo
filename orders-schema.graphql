@@ -34,7 +34,7 @@ type Order @key(fields: "id") {
 
   """The total cost of the order"""
 
-  orderTotal: Float
+  total: Float
 }
 
 type User @key(fields: "id", resolvable: false) {
